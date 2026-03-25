@@ -1,0 +1,41 @@
+product_id,product_name,category,cost_price,list_price
+P001,Wireless Earbuds,Electronics,1350.97,1938.66
+P002,Phone Case,Electronics,695.05,1190.27
+P003,USB-C Hub,Electronics,1525.65,3581.28
+P004,Portable Charger,Electronics,1805.92,2748.09
+P005,Bluetooth Speaker,Electronics,959.46,1383.27
+P006,Laptop Stand,Electronics,593.55,1250.91
+P007,Webcam,Electronics,247.76,415.83
+P008,Mechanical Keyboard,Electronics,1369.79,2962.74
+P009,Cotton T-Shirt,Apparel,596.79,1327.84
+P010,Denim Jacket,Apparel,1656.97,2334.83
+P011,Running Shorts,Apparel,1650.47,3923.82
+P012,Hoodie,Apparel,812.45,1314.28
+P013,Polo Shirt,Apparel,1922.98,3598.34
+P014,Formal Trousers,Apparel,366.94,563.4
+P015,Sports Socks,Apparel,1725.49,3874.1
+P016,Cap,Apparel,1652.83,4002.53
+P017,Scented Candle,Home,1165.21,3218.73
+P018,Cushion Cover,Home,881.36,1915.07
+P019,Wall Clock,Home,1692.93,3836.06
+P020,Desk Organiser,Home,1751.07,3866.88
+P021,Ceramic Mug,Home,1468.23,2149.72
+P022,Bamboo Cutting Board,Home,610.22,1101.53
+P023,LED Fairy Lights,Home,343.63,593.07
+P024,Photo Frame,Home,381.8,683.1
+P025,Face Serum,Beauty,1344.23,2568.51
+P026,Moisturiser,Beauty,866.33,1466.97
+P027,Lip Balm,Beauty,680.56,1845.21
+P028,Sunscreen SPF50,Beauty,1366.46,3078.34
+P029,Hair Mask,Beauty,508.05,1229.88
+P030,Body Scrub,Beauty,494.12,954.26
+P031,Eye Cream,Beauty,1981.14,4548.7
+P032,Toner,Beauty,1202.51,2836.07
+P033,Yoga Mat,Sports,1717.13,4269.47
+P034,Resistance Bands,Sports,612.29,884.72
+P035,Water Bottle,Sports,767.82,1362.76
+P036,Gym Gloves,Sports,579.77,1577.02
+P037,Skipping Rope,Sports,1777.46,3271.5
+P038,Foam Roller,Sports,1379.79,2695.95
+P039,Protein Shaker,Sports,1846.19,3770.64
+P040,Ankle Support,Sports,676.78,1181.17

@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests: [unique, not_null]
+      - name: customer_id
+        tests: [not_null]
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['completed', 'returned', 'pending']
+      - name: quantity
+        tests: [not_null]
+
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests: [unique, not_null]
+      - name: email
+        tests:
+          - not_null
+          - unique:
+              config:
+                severity: warn
+
+  - name: stg_products
+    columns:
+      - name: product_id
+        tests: [unique, not_null]
+      - name: category
+        tests:
+          - accepted_values:
+              values: ['Electronics', 'Apparel', 'Home', 'Beauty', 'Sports']

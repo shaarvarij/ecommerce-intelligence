@@ -1,0 +1,92 @@
+{
+  "run_time": "2026-03-25 19:44:12",
+  "passed": 14,
+  "failed": 0,
+  "total": 14,
+  "checks": [
+    {
+      "check": "raw.orders row count > 9000",
+      "result": "10000",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "raw.customers row count > 1900",
+      "result": "2000",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "raw.orders has no null order_ids",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "raw.orders unit_price always positive",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "raw.orders quantity always positive",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "raw.orders status values are valid",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "stg_orders line_revenue always positive",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "stg_customers emails are lowercase",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "stg_products margin_pct between 0 and 100",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "mart_daily_revenue has no negative revenue days",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "mart_daily_revenue covers > 400 days",
+      "result": "784",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "mart_customer_lifetime total_revenue always positive",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "mart_customer_lifetime no customer has 0 orders",
+      "result": "0",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    },
+    {
+      "check": "mart_product_performance covers all 5 categories",
+      "result": "5",
+      "status": "PASS",
+      "checked_at": "2026-03-25 19:44:12"
+    }
+  ]
+}
