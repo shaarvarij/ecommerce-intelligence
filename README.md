@@ -3,7 +3,7 @@
 A full end-to-end data engineering and analytics project built to demonstrate production-grade skills across ingestion, transformation, modelling, and visualisation.
 
 ## Live Demo
-> Streamlit dashboard — deploy instructions below
+> Streamlit dashboard — [deploy instructions below](https://ecommerce-intelligence-1.streamlit.app/)
 
 ## What this project does
 - Ingests raw e-commerce data (orders, customers, products, clickstream events) into a DuckDB warehouse
